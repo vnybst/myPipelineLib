@@ -3,8 +3,7 @@ package main.groovy.com.amarula.lib
 class MyLib {
 
     void doSomething(Map options = [:]) {
-        print("Hello ${options.from}")
-        print("Hello ${options.to}")
+        sh "echo ${options.from} ${options.to}"
     }
 
     String getSomething() {
