@@ -1,4 +1,4 @@
-package com.amarula.lib
+package main.groovy.com.amarula.lib
 
 class MyLib {
 
